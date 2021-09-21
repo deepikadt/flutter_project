@@ -24,15 +24,10 @@ abstract class AppColors {
 
   static const Color bgGrey = Color(0xffF5F5F5);
 
-  static const Color fundsGreyBorder = Color(0xffEEEEEE);
-  static const Color widgetSelectionColor = Color(0xffE7F7FD);
-
   static const Color red = Color.fromRGBO(204, 86, 86, 1);
-  static const Color red229 = Color.fromRGBO(229, 95, 95, 1);
+
   static const Color transparent = Colors.transparent;
-  static const Color yellow = Colors.yellow;
-  static const Color pink = Color.fromRGBO(255, 44, 182, 1);
-  static const Color amber = Colors.amber;
+
   static final Color greyLight = Colors.grey[100]; // light
 
   static const Color greyDark = Color.fromRGBO(154, 158, 167, 1.0);
@@ -49,8 +44,7 @@ abstract class AppColors {
   //notification page colors
   static Color blue50 = Colors.blue.shade50;
   static Color orange = Colors.orange;
-  static Color orange300 = Colors.orange.shade300;
-  static Color lightBlue50 = Colors.lightBlue.shade50;
+
   static Color lightBlue = Colors.lightBlue;
   static Color greyColor = Colors.grey;
   static Color blackColor = Colors.black;

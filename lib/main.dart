@@ -2,11 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:product_hunt_app/generated/l10n.dart';
-import 'package:product_hunt_app/providers/controllers/home_provider.dart';
 import 'package:product_hunt_app/ui/splash.dart';
 import 'package:product_hunt_app/utils/app_routes.dart';
 import 'package:product_hunt_app/utils/app_theme.dart';
-import 'package:provider/provider.dart';
 import 'services/app_preferences/app_preference.dart';
 
 void main() async {
