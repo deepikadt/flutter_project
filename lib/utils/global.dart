@@ -16,11 +16,11 @@ printDebug(Object object) {
 
 // Circular Progress Indicator.
 loadingIndicator({double size}) {
-  return Container(
+  return SizedBox(
     height: size ?? 30,
     width: size ?? 30,
-    child: CircularProgressIndicator(
-      valueColor: new AlwaysStoppedAnimation<Color>(AppColors.blue),
+    child: const CircularProgressIndicator(
+      valueColor: AlwaysStoppedAnimation<Color>(AppColors.blue),
       strokeWidth: 4,
     ),
   );
