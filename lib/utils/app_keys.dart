@@ -4,8 +4,6 @@ abstract class AppBaseUrl {
 }
 
 abstract class AppClientKeys {
-  static String clientId = "_2mZD7FWZB1qpmZwKG_k5RECrp_A_Qvc_FEWrcWrjzI";
-  static String clientSecret = "n7N-LyhW37XR8Gg9cXMTJafmLkd2i2xwOEqFp4F3OPE";
   static String clientToken = "0YgRI5GSeV5siKN1q5HeNvK7Ip47sCNSR5yEBUU8NNE";
   static String redirectUrl = "https://example.org/";
 }

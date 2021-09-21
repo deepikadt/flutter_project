@@ -735,19 +735,6 @@ class AppStyle {
     );
   }
 
-  //Bold, 20, blackShade
-  static TextStyle get h2 => const TextStyle(
-        fontFamily: AppFonts.sfproDisplay,
-        color: AppColors.blackShade1,
-        fontSize: 20.0,
-        fontWeight: FontWeight.bold,
-      );
-  //Regular, 17, BlackShade
-  static TextStyle get h4 => const TextStyle(
-        fontFamily: AppFonts.sfproDisplay,
-        color: AppColors.blackShade2,
-        fontSize: 17.0,
-      );
   //Bold, 16, Black
   static TextStyle get headingNotifications => const TextStyle(
         fontFamily: AppFonts.sfproDisplay,
@@ -780,21 +767,6 @@ class AppStyle {
       shape: MaterialStateProperty.all(
         RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(8),
-        ),
-      ),
-    );
-  }
-
-  static ButtonStyle get getButtonUnselectedStyle {
-    return ButtonStyle(
-      backgroundColor: MaterialStateProperty.all(AppColors.white),
-      padding: MaterialStateProperty.all(EdgeInsets.zero),
-      shape: MaterialStateProperty.all(
-        RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(8),
-          side: BorderSide(
-            color: AppColors.greyMedium,
-          ),
         ),
       ),
     );
