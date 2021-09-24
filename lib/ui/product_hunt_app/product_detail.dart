@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:product_hunt_app/models/post_model.dart';
 import 'package:product_hunt_app/providers/base/provider_consumer.dart';
 import 'package:product_hunt_app/providers/controllers/post_detail_provider.dart';
-import 'package:product_hunt_app/ui/custom_widgets/error_views/loading_view.dart';
-import 'package:product_hunt_app/ui/custom_widgets/error_views/no_internet_view.dart';
-import 'package:product_hunt_app/ui/custom_widgets/error_views/something_went_wrong.dart';
 import 'package:product_hunt_app/utils/app_colors.dart';
 import 'package:product_hunt_app/utils/app_style.dart';
 
 import 'custom_widgets/custom_image_widget.dart';
+import 'custom_widgets/error_views/loading_view.dart';
+import 'custom_widgets/error_views/no_internet_view.dart';
+import 'custom_widgets/error_views/something_went_wrong.dart';
 
 class PostDetail extends StatelessWidget {
   final Post postModel;

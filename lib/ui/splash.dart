@@ -25,13 +25,14 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-      color: AppColors.green,
-      alignment: Alignment.center,
-      child: Image.asset(
-        AppImages.logoTransparent,
-        fit: BoxFit.cover,
+      body: Container(
+        color: AppColors.green,
+        alignment: Alignment.center,
+        child: Image.asset(
+          AppImages.logoTransparent,
+          fit: BoxFit.cover,
+        ),
       ),
-    ));
+    );
   }
 }

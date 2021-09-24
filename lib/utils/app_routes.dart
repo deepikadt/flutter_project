@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:product_hunt_app/providers/controllers/home_provider.dart';
 import 'package:product_hunt_app/providers/controllers/post_detail_provider.dart';
 import 'package:product_hunt_app/providers/controllers/search_provider.dart';
-import 'package:product_hunt_app/ui/home_screen.dart';
-import 'package:product_hunt_app/ui/product_detail.dart';
-import 'package:product_hunt_app/ui/search_products.dart';
+import 'package:product_hunt_app/ui/product_hunt_app/home_screen.dart';
+import 'package:product_hunt_app/ui/product_hunt_app/product_detail.dart';
+import 'package:product_hunt_app/ui/product_hunt_app/search_products.dart';
 import 'package:product_hunt_app/ui/splash.dart';
 import 'package:provider/provider.dart';
 

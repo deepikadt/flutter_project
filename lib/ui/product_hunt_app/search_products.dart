@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:product_hunt_app/providers/base/provider_consumer.dart';
 import 'package:product_hunt_app/providers/base/provider_helpers.dart';
 import 'package:product_hunt_app/providers/controllers/search_provider.dart';
-import 'package:product_hunt_app/ui/custom_widgets/custom_textfields/bordered_textfield.dart';
 import 'package:product_hunt_app/utils/app_colors.dart';
 import 'package:product_hunt_app/utils/app_routes.dart';
 import 'package:product_hunt_app/utils/app_style.dart';
+
+import 'custom_widgets/custom_textfields/bordered_textfield.dart';
 
 class SearchProducts extends StatefulWidget {
   @override

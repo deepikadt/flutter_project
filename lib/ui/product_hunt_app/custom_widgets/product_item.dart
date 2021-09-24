@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:product_hunt_app/models/post_model.dart';
-import 'package:product_hunt_app/ui/custom_widgets/custom_image_widget.dart';
 import 'package:product_hunt_app/utils/app_colors.dart';
 import 'package:product_hunt_app/utils/app_routes.dart';
 import 'package:product_hunt_app/utils/app_style.dart';
+
+import 'custom_image_widget.dart';
 
 class ProductItem extends StatelessWidget {
   final Post model;

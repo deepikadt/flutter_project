@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:product_hunt_app/providers/controllers/home_provider.dart';
-import 'package:product_hunt_app/ui/custom_widgets/bottom_sheets/date_picker_dialog.dart';
 import 'package:product_hunt_app/utils/app_colors.dart';
 import 'package:product_hunt_app/utils/app_style.dart';
+
+import 'bottom_sheets/date_picker_dialog.dart';
 
 class FilterWidget extends StatelessWidget {
   final HomeProvider provider;
